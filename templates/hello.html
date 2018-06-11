@@ -5,7 +5,14 @@
     <title>hello page</title>
 </head>
 <body>
-    <div style="background: burlywood; height: 100px"></div>
-    <div style="background: yellowgreen; height: 100px"></div>
+<div style="background: burlywood; height: 100px"></div>
+<div style="background: sienna; height: 100px"></div>
+
+{% if name %}
+    <h1>Hello {{ name }}!</h1>
+{% else %}
+    <h1>Hello, World!</h1>
+{% endif %}
+
 </body>
 </html>
