@@ -19,7 +19,7 @@ def profile(username):
 
 
 # @app.route('/login', methods=['GET', 'POST'])
-# def login():
+# def login():g
 #     if request.method == 'POST':
 #         return do_the_login()
 #     else:
